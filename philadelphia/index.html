@@ -207,6 +207,7 @@ map.on('load', function () {
     // Add a search bar to the map.
     map.addControl(new MapboxGeocoder({
         accessToken: mapboxgl.accessToken,
+        bbox: [-74.942886, 39.842003, -75.266372, 40.158123],
         mapboxgl: mapboxgl
     }));
     
